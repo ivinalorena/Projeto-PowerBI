@@ -1,0 +1,30 @@
+let
+    Fonte = Pagamentos[Data] & Recebimentos[data.1],
+    DataMin = Date.StartOfYear(List.Min(Fonte)),
+    DataMax = Date.EndOfYear(List.Max(Fonte)),
+    QtdeDias = Duration.Days(DataMax - DataMin) + 1,
+    ListDates = List.Dates(DataMin, QtdeDias, #duration(1,0,0,0)),
+    ConvertidoTabela = Table.FromList(ListDates, Splitter.SplitByNothing(), null, null, ExtraValues.Error),
+    NomeDiaInserido = Table.AddColumn(ConvertidoTabela, "NomeDia", each Date.DayOfWeekName([Column1]), type text),
+    NomMesInserido = Table.AddColumn(NomeDiaInserido, "NomeMes", each Date.MonthName([Column1]), type text),
+    MesAbreviadoInserido = Table.AddColumn(NomMesInserido, "NomeMesAbreviado", each Text.Start([NomeMes], 3), type text),
+    SemMesInserido = Table.AddColumn(MesAbreviadoInserido, "SemanaMes", each "0" & Text.From(Date.WeekOfMonth([Column1])) & "ª - Sem", type text),
+    SemanaAno = Table.AddColumn(SemMesInserido, "SemanaAno", each Text.PadStart(Text.From(Date.WeekOfYear([Column1])),2,"0") & "ª - Sem", type text),
+    NumMesInserido = Table.AddColumn(SemanaAno, "NumMes", each Date.Month([Column1]), Int64.Type),
+    AnoInserido = Table.AddColumn(NumMesInserido, "Ano", each Date.Year([Column1]), Int64.Type),
+    TrimestreInserido = Table.AddColumn(AnoInserido,"TrimestreAno", each Text.PadStart(Text.From(Date.QuarterOfYear([Column1])),2,"0") & "ª - Tri", type text),
+    ColunasMescladas = Table.CombineColumns(Table.TransformColumnTypes(TrimestreInserido, {{"Ano", type text}}, "pt-BR"),{"NomeMesAbreviado", "Ano"},Combiner.CombineTextByDelimiter(" - ", QuoteStyle.None),"MesAno"),
+    ColunasRenomeadas = Table.RenameColumns(ColunasMescladas,{{"Column1", "Data"}}),
+    TipoAlterado = Table.TransformColumnTypes(ColunasRenomeadas,{{"Data", type date}}),
+    PalavraMaiuscula = Table.TransformColumns(TipoAlterado,{{"NomeDia", Text.Proper, type text}, {"NomeMes", Text.Proper, type text}, {"MesAno", Text.Proper, type text}}),
+    CaracteresInseridos = Table.AddColumn(PalavraMaiuscula, "NomeMesAbreviado", each Text.Start([NomeMes], 3), type text),
+    ColunasReordenadas = Table.ReorderColumns(CaracteresInseridos,{"Data", "NomeDia", "NomeMes", "NomeMesAbreviado", "SemanaMes", "SemanaAno", "NumMes", "MesAno", "TrimestreAno"})
+in
+    ColunasReordenadas
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+passos do curso de power bi que vi: ETL > Modelagem de dados > DAX (medidas - modelagem=_Medidas={0})
+DAX - Data Analisys expressions (calcular medidas/métricas?)
+como fazer para criar uma medida?
+
+-> Padrão 16x9

@@ -1,0 +1,62 @@
+Tipos de análises em BI
+
+- BI & Data Science
+Tipos de análise
+1. Descritiva (o que aconteceu?)
+2. Diagnóstica (Por que aconteceu?)
+3. Preditiva (O que vai acontecer?)  -> Data Science
+4. Prescritivo (O que vai fazer?) -> Data Science
+
+Como aplicar BI?
+1. Coleta das informações
+2. Estruturação (transformação)
+3. Representação visual (relatórios, gráficos)
+
+Análise de Dados e Big Data
+
+
+
+Um analista de dados sabe como organizar as informações e como depurá-las, transformando-as em algo significativo e compreensível.
+
+
++ Diferentes Funções Exercidas no Trabalho com Dados
+- Analista de negócios
+- Analista de dados
+- Engenheiro de dados
+- Cientista de dados
+- ADministrador de banco de dados
+
++ Tarefas de uma analista de dados:
+1. Preparar (preparação e modelagem)
+	A preparação de dados é o processo 	de criação de perfis, limpeza e 	transformação de seus dados para 	que eles fiquem prontos para 	modelagem e visualização.
+
+	A preparação de dados é o processo 	de transformação de dados brutos em 	informações confiáveis 	e 	compreensíveis.
+2. Modelar:
+ A modelagem de dados é o processo de determinar como as tabelas estão relacionadas entre si.
+	De uma perspectiva de Power BI, se 	o relatório estiver sendo executado 	lentamente ou se as suas 	atualizações estiverem demorando 	muito, você provavelmente precisará 	rever as tarefas de preparação e 	modelagem de dados, a fim de 	otimizar seu relatório.
+3. Visualizar:
+Usando visualizações e interações apropriadas, você pode fornecer um relatório eficaz, que orienta o leitor por meio do conteúdo de maneira rápida e eficiente, permitindo, portanto, que o leitor siga uma narrativa pelos dados.
+
+Os relatórios criados durante a tarefa de visualização ajudam empresas e tomadores de decisão a entender o que os dados significam, de modo que decisões precisas e cruciais possam ser tomadas. Os relatórios orientam as ações, as decisões e os comportamentos gerais de uma organização que confia em informações descobertas nos dados e depende delas.
+	Ter uma narrativa de dados pequena 	e concisa pode ajudar a encontrar 	ideias rapidamente.
+	
+	As funcionalidades de IA em Power 	BI, como os visuais internos de IA, 	permitem a descoberta de dados 	fazendo perguntas, usando o recurso 	Insights Rápidos ou criando modelos 	de machine learning diretamente no 	Power BI.
+4. Analisar:
+Em sua função como analista de dados, você deve compreender as funcionalidades analíticas do Power BI e usá-las para encontrar insights, identificar padrões e tendências, prever resultados e comunicar esses insights de maneira que todos possam entendê-los.
+
+5. Gerenciar:
+Como analista de dados, você é responsável pelo gerenciamento desses ativos do Power BI, supervisionando o compartilhamento e a distribuição de itens, como relatórios e dashboards e garantindo a segurança de ativos do Power BI.
+
+
+
+* O fluxo comum de atividade tem esta aparência:
+
+Traga dados para o Power BI Desktop e crie um relatório.
+Publique no serviço do Power BI, no qual você pode criar novas visualizações ou dashboards.
+Compartilhe seus dashboards com outras pessoas, especialmente, as que estiverem trabalhando.
+Exiba e interaja com dashboards compartilhados e relatórios nos aplicativos do Power BI Mobile.
+
+
+Preparando dados para análise 
+* Obter dados
+fonte: DIO + Fundação Bradesco
