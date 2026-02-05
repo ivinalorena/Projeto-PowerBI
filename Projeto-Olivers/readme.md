@@ -17,3 +17,8 @@ mês de dezembro de 2025 e obter algumas análises sobre os indicadores de desem
 - [x] Desenvolver o visual de acordo com as cores e estética da loja no Figma
 - [x] Realizar a modelagem dos dados
 - [x] Desenvolver as medidas relevantes
+- [x] Apresentar resultado final
+---
+## Imagens do processo
+
+1. ![Tela do desenvolvimento da estética e assets do dashboard no Figma](Projeto-Olivers/Assets/Figma/Figma_tela.PNG)
