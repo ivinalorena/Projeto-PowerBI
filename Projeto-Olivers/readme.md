@@ -11,9 +11,9 @@ mês de dezembro de 2025 e obter algumas análises sobre os indicadores de desem
 
 ---
 ## Passos do projeto:
-[x] Entender a realidade da loja
-[x] Iniciar o tratamento dos dados
+- [x] Entender a realidade da loja
+- [x] Iniciar o tratamento dos dados
     - [x] Todo o tratamento com ETL
-[x] Desenvolver o visual de acordo com as cores e estética da loja no Figma
-[x] Realizar a modelagem dos dados
-[x] Desenvolver as medidas relevantes
+- [x] Desenvolver o visual de acordo com as cores e estética da loja no Figma
+- [x] Realizar a modelagem dos dados
+- [x] Desenvolver as medidas relevantes
