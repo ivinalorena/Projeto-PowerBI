@@ -2,6 +2,8 @@
 ---
 Projeto realizado para a empresa de acessórios Oliver's, onde o principal objetivo era conduzir um primeiro contato com os dados da loja do 
 mês de dezembro de 2025 e obter algumas análises sobre os indicadores de desempenho da loja.
+- Imagem da tela inicial do Dashboard:
+![telainicial_olivers](https://github.com/ivinalorena/Projeto-PowerBI/blob/main/Projeto-Olivers/Assets/Página%20Inicial.svg)
 ---
 ## Objetivos do projeto:
 - Medir análise de desempenho
