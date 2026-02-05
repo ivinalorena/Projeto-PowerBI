@@ -21,4 +21,4 @@ mês de dezembro de 2025 e obter algumas análises sobre os indicadores de desem
 ---
 ## Imagens do processo
 
-1. ![Tela do desenvolvimento da estética e assets do dashboard no Figma](Projeto-Olivers/Assets/Figma/Figma_tela.PNG)
+1. ![Tela do desenvolvimento da estética e assets do dashboard no Figma](Projeto-Olivers/Assets/Figma/Figma_tela.PNG](https://github.com/ivinalorena/Projeto-PowerBI/blob/main/Projeto-Olivers/Assets/Figma/Figma_tela.PNG)
