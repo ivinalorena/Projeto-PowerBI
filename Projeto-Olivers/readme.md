@@ -26,4 +26,7 @@ mês de dezembro de 2025 e obter algumas análises sobre os indicadores de desem
 1. **Processo do desenvolvimento da estética no figma:** ![Tela do desenvolvimento da estética e assets do dashboard no Figma](https://github.com/ivinalorena/Projeto-PowerBI/blob/main/Projeto-Olivers/Assets/Figma/Figma_tela.PNG)
 ---
 ### Mais informações sobreo o projeto:
-- Acesse no Linkedin: https://www.linkedin.com/posts/ivina-lorena-oliveira-moura_quero-compartilhar-um-projeto-pessoal-que-activity-7422262231909847040-jEAq?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEoYZC0BWTcL5cbqpUraxGYxedKEE4zpiz0
+- Acesse no Linkedin:
+    - https://www.linkedin.com/posts/ivina-lorena-oliveira-moura_quero-compartilhar-um-projeto-pessoal-que-activity-7422262231909847040-jEAq?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEoYZC0BWTcL5cbqpUraxGYxedKEE4zpiz0
+
+![Power Bi](https://img.shields.io/badge/power_bi-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
